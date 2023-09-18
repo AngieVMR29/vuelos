@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(47, 120, 122);
+}
+.buttons a{
+    margin: 4px 4px 4px;
+}
+
+.body {
+    background-image: url(./cielo.jpg);
+    background-size: auto;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+
+.contenedores div {
+    color: aliceblue;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(83, 179, 182);
+    justify-content: space-around;
+    margin: 10px 10px 10px;
+}
+.filtro {
+    color: aliceblue;
+
+}

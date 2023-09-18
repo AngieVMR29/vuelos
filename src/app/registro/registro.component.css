@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+
+}
+
+body{
+    background-image: url(../inicio/cielo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Forms{
+    padding: 10px;
+    width: 400px;
+    height: 620px;
+    border: solid 5px black;
+    border-radius: 5px;
+    background-color: rgb(47, 120, 122);
+
+}
+
+.Forms mat-form-field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Forms button{
+    color: aliceblue;
+    margin: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Forms mat-form-field, mat-label,mat-select{
+    font-family: monospace;
+    height: 80px;
+
+    
+}
+
+.Forms h1{
+    text-align: center;
+    font-family: monospace;
+}
+
+.recuperarContraseña, .registrar {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
